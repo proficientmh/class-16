@@ -1,0 +1,154 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: tahoma;
+}
+.ain{
+	height: 50px;
+	width: 50px;
+	
+	
+	margin: auto;
+	
+	position: relative;
+}
+.ain  h1{
+	text-align: center;
+
+
+}
+.ain:before{
+	content: '<i class="far fa-smile-beam"></i>';
+
+	
+	width: 150px;
+	
+	border: 2px solid red;
+	display: block;
+	position: absolute;
+	top: 20px;
+	right: 120%;
+}
+.ain:after{
+	content: ' ';
+
+	
+	width: 150px;
+	
+	border: 2px solid green;
+	display: block;
+	position: absolute;
+	top: 20px;
+	left: 120%;
+}
+.aaa button{
+	background-color: green;
+	border: none;
+	outline: none;
+	padding:  10px 20px;
+	border: 1px  solid #008329;
+
+}
+.aaa button:nth-child(2){
+	margin-left: -5px;
+}
+.aaa button:hover{
+	background-color: #034328;
+}
+.bbb {
+	
+	background-color: linen;
+}
+.bbb button{
+	background-color: green;
+	border: none;
+	outline: none;
+	padding:  10px 20px;
+	border: 1px  solid #008329;
+	display: block;
+	width: 100%;
+}
+.bbb button:hover{
+	background-color: #034328;
+}
+
+
+
+
+
+.main{
+	background-color: #F1F1F1;
+	height: 700px;
+	overflow: hidden;
+	overflow-y: scroll;
+}
+.mid{
+	margin: auto;
+	width: 95%;
+	/*margin-top: 50px;
+	margin-left: 20px;*/
+	
+}
+.mid h1:nth-child(1){
+	margin-bottom: 20px;
+	font-size: 40px;
+	margin-top: 20px;
+}
+.mid h3:nth-child(3){
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.mid p:nth-child(4){
+	margin-bottom: 20px;
+
+}
+.card{
+	
+	
+
+}
+.cardone{
+	height: 400px;
+	width: 24.7%;
+	background-color: white;
+	overflow: hidden;
+	
+	display: inline-block;
+margin:auto;
+}
+.cardone img{
+	width: 90%;
+	height: 200px;
+	margin: auto;
+	display: block;
+	margin-top: 10px;
+}
+.cardone h2{
+	margin-left: 12px;
+	margin-top: 10px;
+}
+.cardone p{
+	margin-left: 12px;
+	margin-top: 10px;
+
+}
+.last{
+	background-color: white;
+	height: 900px;
+	overflow: hidden;
+	margin-top: 20px;
+	margin-bottom: 50px;
+}
+.last img{
+	width: 95%;
+	height:700px;
+	display: block;
+	margin: auto;
+	margin-top: 20px;
+}
+.last h2{
+	margin:50px 0px 25px 22px;
+	}
+.last p{
+	margin-left: 25px;
+	}
